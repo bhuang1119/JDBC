@@ -5,6 +5,7 @@ public class Jdbc {
     static final String DB_URL = "jdbc:mysql://localhost:3306/mysql";
     static final String USER = "root";
     static final String PASS = "root";
+
     public static void main(String[] args){
         Connection conn = null;
         Statement stmt = null;
